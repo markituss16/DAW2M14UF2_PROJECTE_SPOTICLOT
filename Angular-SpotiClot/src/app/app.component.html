@@ -1,0 +1,17 @@
+<mat-toolbar role="heading" class="mat-elevation-z3">
+  <div class="col-md-3 col-xs-1" routerLink="/"><span>
+      <mat-icon>library_music</mat-icon>
+      <span class="header-text"> {{title}}</span>
+    </span></div>
+  <div class="icones">
+    <a routerLink="/buscador"><span class="material-icons">
+        search
+      </span></a>
+    <a routerLink="/cancons"><span class="material-icons" style="padding-left: 10px;">
+        favorite
+      </span></a>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
+<mat-toolbar role="footer" class="mat-elevation-z3 music-control">
+</mat-toolbar>

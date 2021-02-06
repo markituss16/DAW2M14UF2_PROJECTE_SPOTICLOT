@@ -1,0 +1,23 @@
+  .header-text{
+      color: white;
+      margin-left: 10px;
+  }
+
+  .mat-elevation-z3 {
+    background: #2b2a2a;  
+  }
+
+  .music-control {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+  }
+
+  .material-icons{
+    color: white;
+  }
+  
+  .icones {
+    margin-left: 1000px;
+    padding-top: 15px;
+  }

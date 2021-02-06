@@ -1,0 +1,8 @@
+import {Artista} from './artista';
+
+export const ARTISTA: Artista[] = [
+    {idArtista: 1, nom: 'Ozuna', edat: 28, imatgeArtista: 'assets/imatges/ozuna.jpg', biografia: 'Juan Carlos Ozuna Rosado, més conegut com a Ozuna, (San Juan, 13 de març de 1992) és un cantant porto-riqueny de reggaeton. Va començar a compondre cançons a la edat de dotze anys.[cal citació] El 2014 va signar un contracte de enregistrament i va començar a publicar les seves interpretacions a YouTube. Al següent any, va començar a guanyar popularitat a Llatinoamèrica'},
+    {idArtista: 2, nom: 'Queen', edat: 50, imatgeArtista: 'assets/imatges/queen.jpg', biografia: 'Queen és un grup de rock britànic format el 1970 pel cantant Freddie Mercury, el guitarrista Brian May, el baixista John Deacon i el bateria Roger Taylor. És un dels principals grups de música del segle xx i considerat un dels millors de la història, sent alhora un dels majors influents de la música actual, en especial Rock Dur i el Heavy Metal.'},
+    {idArtista: 3, nom: 'Mecano', edat: 39, imatgeArtista: 'assets/imatges/mecanoGrupo.jpg', biografia: 'Mecano va ser un grup espanyol de música rock dels anys 80 i principis dels 90. Estava compost per Ana Torroja (veu), Nacho Cano (programació, guitarres, teclats i veu) i José María Cano (guitarres, teclats i veu). Va sortir de la movida madrilenya.'},
+    {idArtista: 4, nom: 'Avicii', edat: 28, imatgeArtista: 'assets/imatges/avicii.jpg', biografia: 'Tim Bergling, més conegut pel nom artístic de Avicii, (Estocolm, 8 de setembre de 1989 – Masqat, 20 de abril de 2018) fou un punxadiscos i productor musical suec.'}
+];
