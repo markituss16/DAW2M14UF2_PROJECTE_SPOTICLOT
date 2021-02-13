@@ -1,7 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Cancons } from '../cancons';
 import { ActivatedRoute } from '@angular/router';
-import { Location } from '@angular/common';
 import { CanconsService } from '../cancons.service';
 
 @Component({
@@ -12,6 +11,7 @@ import { CanconsService } from '../cancons.service';
 export class ReproductorComponent implements OnInit {
   canco: Cancons;
   id;
+  favorits;
 
   constructor(
     private route: ActivatedRoute,
@@ -23,6 +23,9 @@ export class ReproductorComponent implements OnInit {
 
   ngOnInit(): void {
     this.getCanco();
+    if(localStorage.getItem("favorit")){
+      this.favorits = JSON.parse(localStorage.getItem("favorit"));
+    }
   }
 
   getCanco(): void {

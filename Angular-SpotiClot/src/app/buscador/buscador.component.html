@@ -19,12 +19,12 @@
         <div class="example-element-diagram">
           <div class="imatge"><img style="width: 150px;height: 150px;" src="{{element.imatge}}"></div>
         </div>
+        <div class="example-element-button">
+          <button mat-mini-fab color="primary" (click)="reproduir(element.id)"><mat-icon>play_circle_filled</mat-icon></button>
+        </div>
         <div class="example-element-description">
           {{element.descripcio}}
           <span class="example-element-description-attribution"></span>
-        </div>
-        <div class="example-element-button">
-          <button (click)="reproduir(element.id)">Reproduir</button>
         </div>
       </div>
     </td>

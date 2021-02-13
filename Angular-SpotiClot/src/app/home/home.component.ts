@@ -14,7 +14,7 @@ import { AlbumsService } from '../album.service';
         opacity: 0
       })),
       transition(':enter', [
-        animate(300, style({
+        animate(500, style({
           transform: 'translateY(0)',
           opacity: 1
         }))

@@ -1,14 +1,14 @@
 <div id="info-album">
-    <div class="card mb-3" style="max-width: 700px; height: 300px;">
+    <div class="card mb-3" style="max-width: 700px; height: 300px;" @desvanimentInOut>
         <div class="row g-0">
           <div class="col-md-4">
             <img style="width: 230px" src="{{album.imatgeAlbum}}" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h2>{{album.nomAlbum}}</h2>
+              <h2>{{album.nomAlbum | primeraMajuscula}}</h2>
               <p class="card-text">{{album.descripcio}}</p>
-              <p class="card-text"><small class="text-muted">{{album.dataSortida}}</small></p>
+              <p class="card-text" [innerHtml]="album.dataSortida | paraulaPetita"></p>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">{{album.canco1}}</li>
